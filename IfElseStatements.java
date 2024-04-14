@@ -11,28 +11,27 @@ public class IfElseStatements {
         String userInput = scan.nextLine();
 
         //Using If statements to check if user entered fruit vegetable, or neither 
-       if(userInput == "orange"){
+       if(userInput.equals("orange")){
         System.out.println(userInput + " is a fruit");
-       }else if(userInput == "grapes"){
+       }else if(userInput.equals("grapes")){
         System.out.println(userInput + " is a fruit");
-        }else if(userInput == "apple"){
+        }else if(userInput.equals("apple")){
         System.out.println(userInput + " is a fruit");
-        }else if (userInput == "potato"){
+        }else if (userInput.equals("potato")){
             System.out.println(userInput + " is a vegetable");
-        }else if (userInput == "tomato"){
+        }else if (userInput.equals("tomato")){
             System.out.println(userInput + " is a vegetable");
-        }else if (userInput == "garlic"){
+        }else if (userInput.equals("garlic")){
             System.out.println(userInput + " is a vegetable");
-        }else if (userInput == "carrot"){
+        }else if (userInput.equals("carrot")){
             System.out.println(userInput + " is a vegetable");
-        }else if (userInput == "onion"){
+        }else if (userInput.equals("onion")){
             System.out.println(userInput + " is a vegetable");
-        }else if (userInput == "pepper"){
+        }else if (userInput.equals("pepper")){
             System.out.println(userInput + " is a vegetable");
         }else{
             System.out.println(userInput+ " is neither Fruit nor Vegetable");
         }    
-        
     }
        };
     
