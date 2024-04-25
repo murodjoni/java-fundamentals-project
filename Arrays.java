@@ -19,5 +19,7 @@ public class Arrays {
         System.out.println(paymentMethods[2]);
         System.out.println(paymentMethods[3]);
         System.out.println(paymentMethods[4]);
+
+        System.out.println("Printing line to test Github connection")
     }
 }
