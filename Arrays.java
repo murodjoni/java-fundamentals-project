@@ -3,8 +3,8 @@ public class Arrays {
 
         Grocery();
     }
+    public static void Grocery(){
 
-        public static void Grocery(){
         System.out.println("");
         System.out.println("Welcome to your local grocery store! \n");
         String groceryBag[] = {"Toilet Paper", "toothbrush", "water", "bananas", "bread", "coffee"};
