@@ -3,6 +3,6 @@
 public class Greeter {
 
     public void sayHello(){
-        System.out.println("Hello, world! from the Greeter class");
+        System.out.println("Hello, world! from the Dalerjon");
     }
 }
